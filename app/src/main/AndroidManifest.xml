@@ -18,6 +18,8 @@
 
         <!-- This name is resolved to com.example.myapp.MainActivity
              based upon the package attribute -->
+        <activity android:name=".MostrarNombre"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,8 +27,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity" />
+
     </application>
 </manifest>
